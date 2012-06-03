@@ -1,5 +1,5 @@
 ---
-abstract: 'Arrays that behave like scalars'
+abstract: Arrays that behave like scalars
 author:
   - 'Laurent Dami <dami@cpan.org>'
 build_requires:
@@ -7,7 +7,7 @@ build_requires:
 configure_requires:
   Module::Build: 0.38
 dynamic_config: 1
-generated_by: 'Module::Build version 0.38, CPAN::Meta::Converter version 2.110930'
+generated_by: 'Module::Build version 0.38, CPAN::Meta::Converter version 2.112150'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -16,9 +16,9 @@ name: Array-PseudoScalar
 provides:
   Array::PseudoScalar:
     file: lib/Array/PseudoScalar.pm
-    version: 1.00
+    version: 1.01
 requires:
   perl: 5.006
 resources:
   license: http://dev.perl.org/licenses/
-version: 1.00
+version: 1.01
